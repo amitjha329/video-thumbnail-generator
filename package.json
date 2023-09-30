@@ -4,6 +4,11 @@
   "description": "Package to generate a thumbail for an mp4 video and its types",
   "main": "build/index.js",
   "license": "MIT",
+  "author": {
+    "name": "Yash Jha",
+    "email": "amitjha329@gmail.com",
+    "url": "https://github.com/amitjha329/video-thumbnail-generator"
+  },
   "scripts": {
     "compile": "gulp build && npx -p typescript tsc src/index.js --declaration --allowJs --emitDeclarationOnly --outDir types",
     "clean": "gulp clean",
